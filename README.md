@@ -52,7 +52,7 @@ Essas referências são do mercado à vista e podem apresentar atraso ou diferen
 ## Como usar
 
 1. Baixe ou clone este repositório.
-2. Abra o arquivo `index.html` em um navegador moderno com acesso à internet.
+2. Abra o arquivo `calculadora_operacoes_b3.html` em um navegador moderno com acesso à internet.
 3. Selecione o ativo desejado.
 4. Revise ou altere cotação, margem e custos.
 5. Escolha a variável operacional que deseja avaliar.
@@ -62,7 +62,7 @@ Não há etapa de build, servidor local obrigatório ou instalação de dependê
 
 ## Observações sobre os cálculos
 
-A implementação usa regras e parâmetros definidos no próprio arquivo `index.html`. Entre outras operações, calcula exposição a partir da cotação e do multiplicador do ativo, agrega custos por contrato e aplica, quando habilitado, uma estimativa tributária total de 20% sobre o resultado positivo após os custos B3, separada na interface em 1% de IRRF e 19% de DARF complementar.
+A implementação usa regras e parâmetros definidos no próprio arquivo `calculadora_operacoes_b3.html`. Entre outras operações, calcula exposição a partir da cotação e do multiplicador do ativo, agrega custos por contrato e aplica, quando habilitado, uma estimativa tributária total de 20% sobre o resultado positivo após os custos B3, separada na interface em 1% de IRRF e 19% de DARF complementar.
 
 Esses cálculos não substituem a apuração fiscal real, que pode depender de compensação de perdas, operações acumuladas no período, regras vigentes e outros fatores não modelados pela ferramenta.
 
@@ -70,7 +70,7 @@ Esses cálculos não substituem a apuração fiscal real, que pode depender de c
 
 ```text
 .
-├── index.html   # interface, estilos e lógica da calculadora
+├── calculadora_operacoes_b3.html   # interface, estilos e lógica da calculadora
 └── README.md    # documentação do projeto
 ```
 
